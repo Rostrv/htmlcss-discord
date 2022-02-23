@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,4 +6,107 @@
 
 html{
     font-family: 'Montserrat', sans-serif;
+
 }
+
+
+.container {
+    width: auto;
+    height: 625px;
+    background-size: cover;
+    margin: auto;  
+          
+}
+
+#header {
+    background-image: url("./img/jumbo.png");
+    
+}
+
+.navbar{
+    text-align: center;
+    height: 70px;
+ 
+}
+
+.logo img{
+    height: 35px;
+    vertical-align: middle;
+    position: absolute;
+    left: 300px;
+}
+
+.navbar ul{
+  list-style: none;
+  display: inline;
+  
+   
+}
+
+.navbar ul>li{
+    display:inline-block ;
+      
+}
+
+.navbar a{
+
+ text-decoration: none;
+ color: white;
+ display: inline-block;
+ padding: 20px 40px;
+
+}
+
+.loginButton {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 10px 16px;
+    border: none;
+    display: inline-block;
+    float: right;
+    position: relative;
+    right: 300px;
+
+}
+
+#center {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+  
+  .title {
+    font-size: 50px;
+    margin-bottom: 32px;
+  }
+  
+  .descr {
+    font-size: 16px;
+    width: 600px;
+    margin: auto;
+  }
+  
+  .buttonRow {
+    padding: 16px 0px;
+    width: 600px;
+    margin: auto;
+    padding-bottom: 100px;
+  }
+  
+  .centerButton {
+    padding: 20px;
+    background: white;
+    border-radius: 50px;
+    display: inline-block;
+  }
+  
+  .first {
+    color: black;
+    margin-right: 32px;
+  }
+  
+  .second {
+    color: white;
+    background-color: #212121;
+  }

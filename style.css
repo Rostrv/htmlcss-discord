@@ -126,14 +126,135 @@ html{
     color: black;
     margin-right: 32px;
     border: none;
+    font-size: large;
   }
   
   .second {
     color: white;
     background-color: #212121;
     border: none;
+    font-size: large;
   }
 
   
+.site_main{
+height: 100vh;
+width:auto;
+margin: auto;
+}
+
+.first_section{
+    height: 700px;
+    width: auto;
+
+}
+
+.second_section{
+    background-color: #f6f6f6;
+    height: 700px;
+    width: auto;
+    
+}
+
+.third_section{
+   
+    height: 700px;
+    width: auto;
+    
+}
+
+.col_img{
+    
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
+.col_img2{
+    
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+
+.col_img3{
+    
+    width: 60%;
+    height: 100%;
+    float: left;
+}
 
 
+.col_txt{
+    
+    width: 40%;
+    height: 100%;
+    float: right;
+}
+
+.col_txt2{
+    
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.col_txt3{
+    
+    width: 40%;
+    height: 100%;
+    float: right;
+}
+
+.col_img img{
+    position: relative;
+    top: 10%;
+    left: 30%;
+
+}
+
+.col_img2 img{
+    position: relative;
+    top: 15%;
+    left: 10%;
+    
+}
+
+.col_img3 img{
+    position: relative;
+    top: 20%;
+    left: 30%;
+}
+
+
+h2{
+    font-size:3.2rem;
+}
+
+p{
+    margin-top: 10px;
+    
+}
+
+
+.txt_container{
+    width: 55%;
+    position: relative;
+    top: 15%;
+    right: 5%;
+    
+}
+
+.txt_container2{
+    width: 50%;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    
+}
+.txt_container3{
+    width: 55%;
+    position: relative;
+    top: 20%;
+    right: 5%;
+}
